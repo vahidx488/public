@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/vk/Desktop/CPPPROGS/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -I/Users/vk/Desktop/CPPPROGS/src -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/proj.dir/src/main.cpp.o -c /Users/vk/Desktop/CPPPROGS/src/main.cpp",
+  "file": "/Users/vk/Desktop/CPPPROGS/src/main.cpp",
+  "output": "CMakeFiles/proj.dir/src/main.cpp.o"
+},
+{
+  "directory": "/Users/vk/Desktop/CPPPROGS/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin24-g++-14 -I/Users/vk/Desktop/CPPPROGS/src -g -std=gnu++14 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -o CMakeFiles/proj.dir/src/SomeClass.cpp.o -c /Users/vk/Desktop/CPPPROGS/src/SomeClass.cpp",
+  "file": "/Users/vk/Desktop/CPPPROGS/src/SomeClass.cpp",
+  "output": "CMakeFiles/proj.dir/src/SomeClass.cpp.o"
+}
+]

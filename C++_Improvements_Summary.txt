@@ -1,0 +1,49 @@
+Modern C++ Improvements Summary
+=================================================
+
+1.	Use std::string Instead of C-style Strings
+    Safer, dynamic, no buffer overflow risk.
+
+2.	Prefer std::unique_ptr Over Raw Pointers
+    Prevents memory leaks, automatic cleanup.
+
+3.	Replace atoi() with std::stoi()
+    Exception-safe, detects invalid input.
+
+4.	Add const to Non-Mutating Member Functions
+    Signals intent, enables compiler checks.
+
+5.	Use const std::string& for Function Parameters
+    Avoids unnecessary copies, more efficient.
+
+6.	Prefer std::cout Over printf
+    Type-safe, aligns with modern C++ style.
+    
+7.	Check for "null" String Instead of NULL
+    Clearer logic, avoids confusion with macro.
+
+8.	Use override for Overridden Methods
+    Catches signature mistakes, improves readability.
+
+9.	Default Virtual Destructors in Base Classes
+    Ensures proper polymorphic cleanup.
+
+10.	Avoid strcpy() with NULL Checks
+    Replaced by safe std::string handling.
+
+11.	Throwing raw integers is confusing and lacks clarity.
+    Error Handling	Use exceptions, not throw -1 or return codes.
+
+12.	Modern Loops.
+    Use range-based for-loops instead of old-style index loops when appropriate.
+
+13. main should return int 
+    void main() is non-standard.
+
+14. using std::uint64_t instead of long
+    Width	Always 64 bits	32 bits on Windows, 64 bits on Linux/macOS 64-bit
+    Signedness	Unsigned	for long Signed (unless explicitly unsigned)
+
+
+
+
